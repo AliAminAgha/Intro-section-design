@@ -32,9 +32,31 @@
     </style>
   </head>
   <body>
+    <div class="mobile-menu-canvas hide">
+      <div class="canvas-right">
+        <div class="exit-canvas">
+          <a href="#"
+            ><img src="images/icon-close-menu.svg" alt="" class="close-menu"
+          /></a>
+        </div>
+        <div class="canvas-menu">
+          <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <div class="header">
       <div class="header-col-1">
         <div class="snap-logo"><img src="images/logo.svg" alt="" /></div>
+        <div class="mobile-menu">
+          <a href="#"
+            ><img src="images/icon-menu.svg" alt="" class="mobile-menu-img"
+          /></a>
+        </div>
         <div class="menu">
           <ul>
             <li><a href="#">Features</a></li>
@@ -46,8 +68,8 @@
       </div>
       <div class="header-col-2">
         <div class="login"><a href="#">Login</a></div>
+        <button class="register">Register</button>
       </div>
-      <button class="register">Register</button>
     </div>
     <div class="hero-section">
       <div class="container">
@@ -75,9 +97,19 @@
           </div>
         </div>
         <div class="hero-col-right">
-          <img src="images/image-hero-desktop.png" alt="" />
+          <img
+            src="images/image-hero-desktop.png"
+            alt=""
+            class="hero-img-desktop"
+          />
+          <img
+            src="images/image-hero-mobile.png"
+            alt=""
+            class="hero-img-mobile"
+          />
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
