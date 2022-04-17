@@ -16,8 +16,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/AliAminAgha/Intro-section-design)
-- Live Site URL: [Add live site URL here](https://aliaminagha.github.io/Intro-section-design/)
+- Solution URL: [Click Here](https://github.com/AliAminAgha/Intro-section-design)
+- Live Site URL: [Click Here](https://aliaminagha.github.io/Intro-section-design/)
 
 ## My process
 
