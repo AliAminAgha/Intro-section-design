@@ -52,6 +52,7 @@ body {
   font-family: var(--ff-font);
   font-size: 18px;
   overflow-x: hidden;
+  background-color: var(--almost-white);
 }
 
 /* A elements that don't have a class get default styles */
@@ -272,6 +273,13 @@ ul li ul:hover {
 
 .hero-img-mobile {
   display: none;
+}
+
+.hero-button {
+  background-color: var(--almost-black);
+}
+.hero-button a {
+  color: var(--almost-white) !important;
 }
 
 @media screen and (max-width: 600px) {
